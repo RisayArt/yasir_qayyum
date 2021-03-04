@@ -19,7 +19,7 @@ class InstitutionTableSeeder extends Seeder
             DB::table('institutions')->insert([
                 'name' => $faker->name,
                 'phone_number' => $faker->phoneNumber,
-                'address' => $faker->phoneNumber
+                'address' => $faker->address
         ]);
         }
 
